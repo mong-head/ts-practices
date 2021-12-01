@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dataType" : "tsc && node ./dist/dataType.js",
+    "function" : "tsc && node ./dist/function.js",
+    "interface" : "tsc && node ./dist/interface.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,3 +1,4 @@
+/* 기본 변수 */
 // const message: string = 1; // error
 const message: string = 'hello world';
 
