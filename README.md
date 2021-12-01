@@ -12,16 +12,22 @@ npm install -g typescript
 # ts설정 -> tsconfig.json 생성됨
 tsc --init
 ```
-
-* 설정 후
-    ```js
-    "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "strict": true,
-        "esModuleInterop": true
+* tsconfig.json 추가 설정
+    ```json
+    {
+        ...
+        "outDir": "./dist",
+        ...
     }
-  ```
+    ```
+    * outDir : ```tsc``` 후 설정한 폴더 밑에 js 생김
+
+### 실행
+```powershell
+# typescript compile - tsconfig.json 정보대로
+tsc
+```
+
 
 
 ### 참고
